@@ -9,6 +9,7 @@ public class Demo {
 	double total;
 	char name;
 	String vol;
+	boolean status;
 	int a[][]={{1,0},{0,1}};
 	public void display(){
 		System.out.println(number);
@@ -19,6 +20,7 @@ public class Demo {
 		System.out.println(total);
 		System.out.println(name);
 		System.out.println(vol);
+		System.out.println(status);
 		for(int i=0;i<2;i++){
 			for(int j=0;j<2;j++)
 			{
