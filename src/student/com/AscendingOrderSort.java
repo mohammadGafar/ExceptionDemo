@@ -3,7 +3,7 @@ package student.com;
 import java.util.Scanner;
 
 public class AscendingOrderSort {
-	public static void main() {
+	public static void main(String args[]) {
 		int n, temp;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("enter number of elements");
