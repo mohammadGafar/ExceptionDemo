@@ -14,6 +14,8 @@ public class StringBufferClass {
 		System.out.println(sBuffer);
 		sBuffer.replace(3, 9, "muslim");
 		System.out.println(sBuffer);
+		int capacity= sBuffer.capacity();
+		System.out.println("capacity of buffer"+capacity);
 	}
 
 }

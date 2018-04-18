@@ -16,9 +16,11 @@ public class AscendingOrderSort {
 
 		for (int i = 0; i < n; i++) {
 			for (int j = i + 1; j < n; j++) {
+				if(ab[i]>ab[j]){
 				temp = ab[i];
 				ab[i] = ab[j];
 				ab[j] = temp;
+				}
 			}
 		}
 		System.out.println("Ascending Order:");

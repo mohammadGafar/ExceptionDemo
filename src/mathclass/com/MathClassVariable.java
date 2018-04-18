@@ -7,7 +7,7 @@ public class MathClassVariable {
 		
 		System.out.println("base 10 alogorithm value of 2 is "+Math.log10(2));
 		
-		System.out.println(""+Math.nextAfter(10,2));
+		System.out.println(""+Math.nextAfter(10,5));
 		
 		System.out.println(""+Math.nextUp(10));
 		
