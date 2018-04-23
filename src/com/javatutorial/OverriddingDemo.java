@@ -9,6 +9,10 @@ class Dogs extends Animals{
 	public void move(){
 		System.out.println("Dog can walk and run");
 	}
+	// bark is not declared in animal class
+	/*public void bark(){
+		System.out.println("dog can bark");
+	}*/
 }
 public class OverriddingDemo {
 
@@ -17,6 +21,7 @@ public class OverriddingDemo {
 		Animals b=new Dogs();
 		a.move();
 		b.move();
+	//	b.bark();
 	}
 
 }
