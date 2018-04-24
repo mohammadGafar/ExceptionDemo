@@ -16,6 +16,7 @@ public class Salary extends Employe {
 	public void setSalary(double newSalary){
 		if(newSalary >=0.0){
 			salary=newSalary;
+			computePay();
 		}
 	}
 	public double computePay(){
