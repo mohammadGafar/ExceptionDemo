@@ -1,9 +1,9 @@
 package com.javatutorial;
 
-public  abstract class Employ {
+public   class Employ {
 	private String name;
 	private String address;
-	 private int number;
+	private int number;
 	 public Employ(String name,String address,int number){
 		 System.out.println("Employ constructor");
 		 this.name=name;
