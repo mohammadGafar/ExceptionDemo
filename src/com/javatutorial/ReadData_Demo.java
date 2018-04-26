@@ -12,6 +12,7 @@ public class ReadData_Demo {
 			File file=new File("file.txt");
 			fr=new FileReader(file);
 			char []a = new char[50];
+			fr.read(a);
 			for(char c: a){
 				System.out.println(c);
 			}
