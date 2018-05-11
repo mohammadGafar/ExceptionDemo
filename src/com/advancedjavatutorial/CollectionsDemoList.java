@@ -14,6 +14,7 @@ public class CollectionsDemoList {
 		
 		List l1 = new LinkedList();
 		l1.add("zara");
+		l1.add("samad");
 		l1.add("mehnaz");
 		l1.add("samad");
 		System.out.println("Linked list elements");
@@ -24,6 +25,7 @@ public class CollectionsDemoList {
 		s1.add("zara");
 		s1.add("mehnaz");
 		s1.add("samad");
+		
 		System.out.println("hashset elements");
 		System.out.println("\t"+s1);
 		
